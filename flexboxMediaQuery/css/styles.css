@@ -1,0 +1,266 @@
+header {
+    height: 80px;
+    box-shadow: 0px 0px 0px 0px #0000001A;
+}
+
+header .container {
+    align-items: center;
+}
+
+.container {
+    width: 1440px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header nav ul li {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 26px;
+}
+
+header .container nav ul li:last-of-type {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Heebo;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #3E3E3E;
+    line-height: 32px;
+    font-size: 15px;
+}
+
+.container .logo {
+    font-size: 27px;
+}
+
+span.dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #33C6DD;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+section.hero {
+    position: relative;
+}
+
+section.hero img {
+    width: 100%;
+    height: auto;
+}
+
+section.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+section.hero .hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+section.hero h1,
+section.hero p {
+    margin: 0 0 20px 0;
+    color: white;
+    max-width: 495px;
+}
+
+section.hero h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+}
+
+section.hero p {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+section.hero button {
+    height: 50px;
+    width: 200px;
+    background-color: #33C6DD;
+    border: 1px solid #33C6DD;
+    border-radius: 25px;
+    size: 16px;
+    line-height: 24px;
+    align-content: center;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+section.best-seller h2 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+section.best-seller hr {
+    margin: 0 auto;
+    border: none;
+    width: 70px;
+    height: 6px;
+    background-color: #33C6DD;
+    margin-bottom: 70px;
+
+}
+
+
+section.best-seller .product-section img {
+    max-width: 100%;
+}
+
+
+section.best-seller .product-section .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.best-seller .product-section {
+    width: 100%;
+}
+
+section.best-seller .product-section .products {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 8px;
+    padding: 30px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.best-seller .product-section .products .product-info {
+    margin-top: 50px;
+}
+
+section.best-seller .product-section .products .product-info h5,
+section.best-seller .product-section .products .product-info h4,
+section.best-seller .product-section .products .product-info h3 {
+    margin: 0 0 10px 0;
+}
+
+section.best-seller .product-section .products .product-info h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #33C6DD;
+
+}
+section.best-seller .product-section .products .product-picture {
+    position: relative;
+}
+
+section.best-seller .product-section .products .product-picture .new-tag {
+    position: absolute;
+    margin: 0;
+    top: 12px;
+    right: 12px;
+  
+    border-radius:40px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #614DC9;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    line-height: 21px;
+}
+
+
+
+section.best-seller .product-section .products .product-info h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+section.best-seller .product-section .products .product-info h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.product-info button {
+    width: 220px;
+    height: 44px;
+    border-radius: 25px;
+    border-width: 1px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+section.newsletter .container {
+    width: 955px;
+    height: 292px;
+    background-color: rgba(200, 200, 200, 0.18);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.newsletter h3 {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+section.newsletter h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+
+}
